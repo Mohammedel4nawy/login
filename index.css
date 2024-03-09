@@ -1,0 +1,117 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(146, 29, 236),
+    rgb(62, 124, 205),
+    rgb(119, 200, 232)
+  );
+}
+#all {
+  width: 450px;
+  height: 450px;
+  border: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  backdrop-filter: blur(1000px);
+  border-radius: 50%;
+  transition-duration: 2s;
+}
+h1 {
+  position: absolute;
+  left: 50%;
+  top: -20px;
+  transform: translate(-50%);
+  font-size: 65px;
+}
+#email {
+  width: 80%;
+  height: 40px;
+  margin-left: 10%;
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  border-radius: 20px;
+  transition-duration: 1s;
+  border-radius: 20px;
+}
+#pass {
+  width: 80%;
+  height: 40px;
+  margin-left: 10%;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  border-radius: 20px;
+  transition-duration: 1s;
+}
+#log {
+  width: 20%;
+  height: 40px;
+  position: absolute;
+  margin-left: 40%;
+  position: absolute;
+  top: 65%;
+  border-radius: 20px;
+  transition-duration: 1s;
+  cursor: pointer;
+  text-align: center;
+}
+#forget {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  bottom: 45px;
+  left: 50%;
+  transform: translate(-50%);
+}
+#email:hover {
+  border-color: black;
+  box-shadow: inset 0px 0px 30px 10px rgb(119, 200, 232);
+}
+#pass:hover {
+  border-color: black;
+  box-shadow: inset 0px 0px 30px 10px rgb(119, 200, 232);
+}
+#log:hover {
+  border-color: black;
+  box-shadow: inset 0px 0px 30px 10px rgb(119, 200, 232);
+}
+/* @keyframes all {
+  0% {
+    border-radius: 10%;
+  }
+  25% {
+    border-radius: 20%;
+  }
+  50% {
+    border-radius: 30%;
+  }
+  75% {
+    border-radius: 40%;
+  }
+  100% {
+    border-radius: 50%;
+  }
+}*/
+
+#all:hover {
+  width: 450px;
+  height: 450px;
+  border: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+  overflow: hidden;
+  backdrop-filter: blur(500px);
+  background-color: initial;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
