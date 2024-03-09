@@ -71,7 +71,7 @@ function gotopage() {
       ) {
         login.innerHTML = `
       
-      <a id="gotopage" href="https://mohammedel4nawy.github.io/hi/">log in</a>
+      <a id="gotopage" href="https://mohammedel4nawy.github.io/abibass/">log in</a>
       
       `;
       }
