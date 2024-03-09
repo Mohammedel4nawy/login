@@ -74,6 +74,11 @@ function gotopage() {
       <a id="gotopage" href="https://mohammedel4nawy.github.io/abibass/">log in</a>
       
       `;
+      } else {
+        login.innerHTML = `
+      log in
+        
+      `;
       }
     }
   }
